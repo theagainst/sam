@@ -10,6 +10,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+<<<<<<< HEAD
+=======
+
+Route::get('/', function () {
+    return view('welcome');
+});
+>>>>>>> static-pages
 Route::get('/', 'StaticPagesController@home');
 Route::get('/help', 'StaticPagesController@help');
 Route::get('/about', 'StaticPagesController@about');
